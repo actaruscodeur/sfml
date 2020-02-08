@@ -11,7 +11,9 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(800,600), "TEST SFML");
+    int ecranWidth = 800;
+    int ecranHeight = 600;
+    sf::RenderWindow window(sf::VideoMode(ecranWidth,ecranHeight), "TEST SFML");
     
     while(window.isOpen())
     {
