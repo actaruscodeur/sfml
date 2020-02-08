@@ -1,4 +1,13 @@
+#include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
+#include <SFML/System.hpp>
+#include <iostream>
+
+/* Directive de compilation 
+ *
+ *	g++ main.cpp -I /usr/local/include -o main.app -L /usr/local/lib -lsfml-graphics -lsfml-window -lsfml-system
+ *
+ */
 
 int main()
 {
