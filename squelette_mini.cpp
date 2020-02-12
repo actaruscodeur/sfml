@@ -14,7 +14,7 @@ int main()
     int ecranWidth = 800;
     int ecranHeight = 600;
     sf::RenderWindow window(sf::VideoMode(ecranWidth,ecranHeight), "TEST SFML");
-    
+    window.setFramerateLimit(60);
     while(window.isOpen())
     {
         sf::Event event;
